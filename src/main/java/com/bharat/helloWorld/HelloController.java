@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController
 
 {
- @GetMapping("/hello")
-    public String sayHello(){
-        return "Hello world !!!";
-    }
+    @GetMapping("/user")
+public User getUser(){
 
+        return new User("Bharat","abc12@gmail.com");
+    }
 }
