@@ -1,4 +1,4 @@
-package com.bharat.helloWorld;
+package com.bharat.helloWorld.day1to5;
 
 public class prodcut {
 

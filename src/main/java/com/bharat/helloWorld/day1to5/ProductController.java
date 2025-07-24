@@ -1,13 +1,13 @@
-package com.bharat.helloWorld;
+package com.bharat.helloWorld.day1to5;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class ProductController
 {
     @Autowired
+
     private ProductService productService;
 
     @GetMapping("/products")

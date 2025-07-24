@@ -1,7 +1,6 @@
-package com.bharat.helloWorld;
+package com.bharat.helloWorld.day1to5;
 
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.GetMapping;
 
 @Service
 public class ProductService {
